@@ -1,0 +1,5 @@
+com\tsakirogf\model\Shipwreck.class
+com\tsakirogf\controller\ShipwreckController.class
+com\tsakirogf\App.class
+com\tsakirogf\controller\HomeController.class
+com\tsakirogf\model\ShipwreckStub.class

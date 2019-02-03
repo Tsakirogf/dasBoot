@@ -1,18 +1,32 @@
 package com.tsakirogf.model;
 
+import javax.persistence.CascadeType;
+import javax.persistence.Embedded;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.OneToMany;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "shipwreckTable")
 public class Shipwreck {
-	Long id;
-	String name;
-	String description;
-	String condition;
-	Integer depth;
-	Double latitude;
-	Double longitude;
-	Integer yearDiscovered;
+	@Id
+	@GeneratedValue(strategy = GenerationType.SEQUENCE)
+	private int id;
+	private String name;
+	private String description;
+	private String condition;
+	private Integer depth;
+	private Double latitude;
+	private Double longitude;
+	private Integer yearDiscovered;
+
 
 	public Shipwreck() { }
 
-	public Shipwreck(Long id, String name, String description, String condition, Integer depth, Double latitude, Double longitude, Integer yearDiscovered) {
+	public Shipwreck(int id, String name, String description, String condition, Integer depth, Double latitude, Double longitude, Integer yearDiscovered) {
 		this.id = id;
 		this.name = name;
 		this.description = description;
@@ -23,11 +37,11 @@ public class Shipwreck {
 		this.yearDiscovered = yearDiscovered;
 	}
 
-	public Long getId() {
+	public int getId() {
 		return id;
 	}
 
-	public void setId(Long id) {
+	public void setId(int id) {
 		this.id = id;
 	}
 

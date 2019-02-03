@@ -1,37 +1,44 @@
 package com.tsakirogf.controller;
 
+import com.tsakirogf.services.HomeService;
+import net.bytebuddy.dynamic.DynamicType;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import com.tsakirogf.model.Shipwreck;
 
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 @RequestMapping("api/v1/")
 public class ShipwreckController
 {
+    @Autowired
+    HomeService service;
+
     @GetMapping(value = "shipwrecks")
-    public List<Shipwreck> list()
+    Iterable<Shipwreck> list()
     {
-        return ShipwreckStub.list();
+        return service.findAll();
     }
 
     @RequestMapping(value = "shipwrecks", method = RequestMethod.POST)
-    public Shipwreck create(@RequestBody Shipwreck shipwreck) {
-        return ShipwreckStub.create(shipwreck);
+    Shipwreck create(@RequestBody Shipwreck shipwreck) {
+        return service.save(shipwreck);
     }
 
     @RequestMapping(value = "shipwrecks/{id}", method = RequestMethod.GET)
-    public Shipwreck get(@PathVariable Long id) {
-        return ShipwreckStub.get(id);
+    Optional<Shipwreck> get(@PathVariable int id) {
+        return service.findById(id);
     }
 
     @RequestMapping(value = "shipwrecks/{id}", method = RequestMethod.PUT)
-    public Shipwreck update(@PathVariable Long id, @RequestBody Shipwreck shipwreck) {
-        return ShipwreckStub.update(id, shipwreck);
+    Shipwreck update(@PathVariable int id, @RequestBody Shipwreck shipwreck) {
+        return service.save(shipwreck);
     }
 
     @RequestMapping(value = "shipwrecks/{id}", method = RequestMethod.DELETE)
-    public Shipwreck delete(@PathVariable Long id) {
-        return ShipwreckStub.delete(id);
+    void delete(@PathVariable int id, @RequestBody Shipwreck shipwreck) {
+        service.delete(shipwreck);
     }
 }

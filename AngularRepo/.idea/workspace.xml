@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5fb30b99-afaa-47e8-81fa-a09ae31119f7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../src/main/java/com/tsakirogf/services/HomeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/resources/public/applicationbackup.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasBoot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../dasBoot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/tsakirogf/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/tsakirogf/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/tsakirogf/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/tsakirogf/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/tsakirogf/controller/ShipwreckController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/tsakirogf/controller/ShipwreckController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/tsakirogf/model/Shipwreck.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/tsakirogf/model/Shipwreck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/db/migration/V2_create_shipwreck.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/db/migration/V2_create_shipwreck.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/public/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/public/css/style.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/public/images/shipwreck.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/public/images/shipwreck.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/public/js/controllers.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/public/js/controllers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/public/js/nav-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/public/js/nav-controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/public/js/services.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/public/js/services.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/public/lib/angular/css/angular-csp.css" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/public/lib/angular/css/angular-csp.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/public/lib/angular/js/angular-animate.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/public/lib/angular/js/angular-animate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/public/lib/angular/js/angular-animate.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/public/lib/angular/js/angular-animate.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/public/lib/angular/js/angular-animate.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/public/lib/angular/js/angular-animate.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/public/lib/angular/js/angular-resource.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/public/lib/angular/js/angular-resource.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/public/lib/angular/js/angular-resource.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/public/lib/angular/js/angular-resource.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/public/lib/angular/js/angular-resource.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/public/lib/angular/js/angular-resource.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/public/lib/angular/js/angular-ui-bootstrap-tpls.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/public/lib/angular/js/angular-ui-bootstrap-tpls.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/public/lib/angular/js/angular-ui-bootstrap-tpls.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/public/lib/angular/js/angular-ui-bootstrap-tpls.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/public/lib/angular/js/angular-ui-bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/public/lib/angular/js/angular-ui-bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/public/lib/angular/js/angular-ui-bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/public/lib/angular/js/angular-ui-bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/public/lib/angular/js/angular-ui-bootstrap.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/public/lib/angular/js/angular-ui-bootstrap.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/public/lib/angular/js/angular-ui-router.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/public/lib/angular/js/angular-ui-router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/public/lib/angular/js/angular-ui-router.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/public/lib/angular/js/angular-ui-router.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/public/lib/angular/js/angular.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/public/lib/angular/js/angular.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/public/lib/angular/js/angular.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/public/lib/angular/js/angular.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/public/lib/assets/js/ie10-viewport-bug-workaround.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/public/lib/assets/js/ie10-viewport-bug-workaround.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/public/lib/bootstrap/css/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/public/lib/bootstrap/css/bootstrap-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/public/lib/bootstrap/css/bootstrap-theme.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/public/lib/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/public/lib/bootstrap/css/bootstrap-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/public/lib/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/public/lib/bootstrap/css/bootstrap-theme.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/public/lib/bootstrap/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/public/lib/bootstrap/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/public/lib/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/public/lib/bootstrap/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/public/lib/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/public/lib/bootstrap/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/public/lib/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/public/lib/bootstrap/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/public/lib/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/public/lib/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/public/lib/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/public/lib/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/public/lib/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/public/lib/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/public/lib/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/public/lib/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/public/lib/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/public/lib/bootstrap/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/public/lib/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/public/lib/bootstrap/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/public/lib/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/public/lib/bootstrap/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/public/lib/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/public/lib/html5shiv/html5shiv-printshiv.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/public/lib/html5shiv/html5shiv-printshiv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/public/lib/html5shiv/html5shiv-printshiv.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/public/lib/html5shiv/html5shiv-printshiv.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/public/lib/html5shiv/html5shiv.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/public/lib/html5shiv/html5shiv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/public/lib/html5shiv/html5shiv.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/public/lib/html5shiv/html5shiv.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/public/lib/jquery/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/public/lib/jquery/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/public/lib/jquery/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/public/lib/jquery/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/public/lib/jquery/jquery.min.map" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/public/lib/jquery/jquery.min.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/public/lib/require/require.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/public/lib/require/require.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/public/lib/respond/respond.matchmedia.addListener.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/public/lib/respond/respond.matchmedia.addListener.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/public/lib/respond/respond.matchmedia.addListener.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/public/lib/respond/respond.matchmedia.addListener.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/public/lib/respond/respond.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/public/lib/respond/respond.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/public/lib/respond/respond.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/public/lib/respond/respond.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/public/views/_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/public/views/_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/public/views/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/public/views/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/public/views/shipwreck-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/public/views/shipwreck-add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/public/views/shipwreck-edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/public/views/shipwreck-edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/public/views/shipwreck-view.html" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/public/views/shipwreck-view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/public/views/shipwrecks.html" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/public/views/shipwrecks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/tsakirogf/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/test/java/com/tsakirogf/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/com/tsakirogf/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/com/tsakirogf/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/com/tsakirogf/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/com/tsakirogf/controller/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/com/tsakirogf/controller/ShipwreckController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/com/tsakirogf/controller/ShipwreckController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/com/tsakirogf/model/Shipwreck.class" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/com/tsakirogf/model/Shipwreck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/com/tsakirogf/model/ShipwreckStub.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/db/migration/V2_create_shipwreck.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/db/migration/V2_create_shipwreck.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/public/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/public/css/style.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/public/images/shipwreck.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/public/images/shipwreck.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/public/js/controllers.js" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/public/js/controllers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/public/js/nav-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/public/js/nav-controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/public/js/services.js" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/public/js/services.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/public/lib/angular/css/angular-csp.css" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/public/lib/angular/css/angular-csp.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/public/lib/angular/js/angular-animate.js" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/public/lib/angular/js/angular-animate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/public/lib/angular/js/angular-animate.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/public/lib/angular/js/angular-animate.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/public/lib/angular/js/angular-animate.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/public/lib/angular/js/angular-animate.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/public/lib/angular/js/angular-resource.js" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/public/lib/angular/js/angular-resource.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/public/lib/angular/js/angular-resource.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/public/lib/angular/js/angular-resource.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/public/lib/angular/js/angular-resource.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/public/lib/angular/js/angular-resource.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/public/lib/angular/js/angular-ui-bootstrap-tpls.js" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/public/lib/angular/js/angular-ui-bootstrap-tpls.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/public/lib/angular/js/angular-ui-bootstrap-tpls.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/public/lib/angular/js/angular-ui-bootstrap-tpls.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/public/lib/angular/js/angular-ui-bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/public/lib/angular/js/angular-ui-bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/public/lib/angular/js/angular-ui-bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/public/lib/angular/js/angular-ui-bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/public/lib/angular/js/angular-ui-bootstrap.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/public/lib/angular/js/angular-ui-bootstrap.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/public/lib/angular/js/angular-ui-router.js" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/public/lib/angular/js/angular-ui-router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/public/lib/angular/js/angular-ui-router.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/public/lib/angular/js/angular-ui-router.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/public/lib/angular/js/angular.js" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/public/lib/angular/js/angular.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/public/lib/angular/js/angular.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/public/lib/angular/js/angular.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/public/lib/assets/js/ie10-viewport-bug-workaround.js" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/public/lib/assets/js/ie10-viewport-bug-workaround.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/public/lib/bootstrap/css/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/public/lib/bootstrap/css/bootstrap-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/public/lib/bootstrap/css/bootstrap-theme.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/public/lib/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/public/lib/bootstrap/css/bootstrap-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/public/lib/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/public/lib/bootstrap/css/bootstrap-theme.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/public/lib/bootstrap/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/public/lib/bootstrap/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/public/lib/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/public/lib/bootstrap/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/public/lib/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/public/lib/bootstrap/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/public/lib/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/public/lib/bootstrap/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/public/lib/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/public/lib/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/public/lib/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/public/lib/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/public/lib/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/public/lib/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/public/lib/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/public/lib/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/public/lib/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/public/lib/bootstrap/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/public/lib/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/public/lib/bootstrap/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/public/lib/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/public/lib/bootstrap/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/public/lib/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/public/lib/html5shiv/html5shiv-printshiv.js" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/public/lib/html5shiv/html5shiv-printshiv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/public/lib/html5shiv/html5shiv-printshiv.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/public/lib/html5shiv/html5shiv-printshiv.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/public/lib/html5shiv/html5shiv.js" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/public/lib/html5shiv/html5shiv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/public/lib/html5shiv/html5shiv.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/public/lib/html5shiv/html5shiv.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/public/lib/jquery/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/public/lib/jquery/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/public/lib/jquery/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/public/lib/jquery/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/public/lib/jquery/jquery.min.map" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/public/lib/jquery/jquery.min.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/public/lib/require/require.js" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/public/lib/require/require.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/public/lib/respond/respond.matchmedia.addListener.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/public/lib/respond/respond.matchmedia.addListener.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/public/lib/respond/respond.matchmedia.addListener.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/public/lib/respond/respond.matchmedia.addListener.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/public/lib/respond/respond.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/public/lib/respond/respond.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/public/lib/respond/respond.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/public/lib/respond/respond.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/public/views/_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/public/views/_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/public/views/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/public/views/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/public/views/shipwreck-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/public/views/shipwreck-add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/public/views/shipwreck-edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/public/views/shipwreck-edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/public/views/shipwreck-view.html" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/public/views/shipwreck-view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/public/views/shipwrecks.html" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/public/views/shipwrecks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/surefire-reports/TEST-com.tsakirogf.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../target/surefire-reports/TEST-com.tsakirogf.AppTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/surefire-reports/com.tsakirogf.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../target/surefire-reports/com.tsakirogf.AppTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/com/tsakirogf/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../target/test-classes/com/tsakirogf/AppTest.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AngularRepo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AngularRepo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AngularRepo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AngularRepo" type="462c0819:PsiDirectoryNode" />
+              <item name="ps-spring-boot-resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AngularRepo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AngularRepo" type="462c0819:PsiDirectoryNode" />
+              <item name="ps-spring-boot-resources" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AngularRepo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AngularRepo" type="462c0819:PsiDirectoryNode" />
+              <item name="ps-spring-boot-resources" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5fb30b99-afaa-47e8-81fa-a09ae31119f7" name="Default Changelist" comment="" />
+      <created>1549141344767</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1549141344767</updated>
+      <workItem from="1549141347847" duration="659000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="659000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17913593" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

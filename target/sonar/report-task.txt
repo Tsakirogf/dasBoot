@@ -1,0 +1,6 @@
+projectKey=com.tsakirogf:dasBoot
+serverUrl=http://localhost:9000
+serverVersion=7.5.0.20543
+dashboardUrl=http://localhost:9000/dashboard?id=com.tsakirogf%3AdasBoot
+ceTaskId=AWi0F52vzGHFP4byeeVX
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AWi0F52vzGHFP4byeeVX
